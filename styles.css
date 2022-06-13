@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  background-color: #000000;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+#level-title,
+h1,
+.start-button,
+.restart-button {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  margin: 3.5%;
+  color: #fef2bf;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 280px;
+  width: 280px;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #5c1622;
+  background-image: url("images/Tentomon/Tentomon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #84919a;
+}
+
+.green {
+  background-color: #3b7420;
+  background-image: url("images/Palmon/Palmon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #db549d;
+}
+
+.blue {
+  background-color: #38419c;
+  background-image: url("images/Gabumon/Gabumon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #fcda5d;
+}
+
+.yellow {
+  background-color: #f7cd01;
+  background-image: url("images/Agumon/Agumon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #fefefe;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.hide {
+  display: none;
+}
+
+.start-button,
+.restart-button {
+  padding: 1rem 5rem;
+  background-color: #84919a;
+  border-radius: 5px;
+}
+
+.start-button:hover,
+.restart-button:hover {
+  background-color: #20282e;
+}
+
+.losePage {
+  background-color: #c04c4b;
+}
+
+.startPage h1 {
+  padding-top: 5rem;
+}
+
+.startPage img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.losePage img {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+footer p {
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Press Start 2P", cursive;
+}
+
+.startPage h2,
+.startPage p {
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+.startPage h2 {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+.startPage p {
+  font-size: 0.8rem;
+  margin-bottom: 4rem;
+  color: rgb(196, 196, 196);
+}

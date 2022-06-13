@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mini Digimon Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 id="level-title" class="hide">Press Any Key to Start</h1>
+    <div class="container">
+      <div class="startPage">
+        <h1>Mini Digimon Game</h1>
+        <h2>Instructions</h2>
+        <p>Correctly repeat the signals by remembering a longer and longer sequence of signals.</p>
+        <button class="start-button">Start!</button>
+        <img src="images/startpage-bg.png" alt="Digimon character" />
+      </div>
+
+      <div class="losePage hide">
+        <h1>Game Over!</h1>
+        <button class="restart-button">Restart!</button>
+        <img src="images/losePage-bg.png" alt="digimon char" />
+      </div>
+
+      <div class="row hide">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row hide">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; Renas Hassan 2022</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
